@@ -3,15 +3,17 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Condensed:700|Roboto:300,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/872b4bf343.js"></script>
     <title>Straight to the Point Archery // Home</title>
   </head>
 
-  <body>
+  <body class="grid-container">
     <header>
       <img src="assets/header-img-home.jpg" width="1023" alt="Close-up of archery student aiming at target">
     </header>
 
-    <aside>
+    <aside class="menu">
       <nav>
         <ul>
           <li><a href="index.html">HOME</a></li>
@@ -23,37 +25,55 @@
       </nav>
     </aside>
 
-    <article>
-      <p>From Beginner to Elite, archers of all ages and ability learn about this exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate party or compete at one of our many tournaments.  Straight to the Point Archery also offers homeschooling programs, kids club events, YMCA classes, Boy and Girl Scouts achievement programs and several other youth group activities. We are dedicated to teaching valuable life skills to the youth in our community through the wonderful discipline of archery.</p>
+    <article class="main-content">
+      <p class="intro">From Beginner to Elite, archers of all ages and ability learn about this
+        exciting Olympic and international sport. Sign up for a group lesson, private class, schedule a birthday or corporate
+        party or compete at one of our many tournaments.</p>
 
+    <div class="class-notices">
       <h2>UPCOMING CLASSES</h2>
-      <section>
+      <section class="box-1">
         <h3>A102</h3>
         <h4>Intermediate Archery</h4>
-        <p>Tue. and Thur., 4–5pm <br> Begins Sept. 17th</p>
-        <p><small>SPACE AVAILABLE</small></p>
-        <a href="#">SIGN UP</a>
+        <p class="date-time">Tue. and Thur., 4–5pm <br> Begins Sept. 17th</p>
+        <p class="status">SPACE AVAILABLE</p>
+        <a href="#">SIGN UP <i class="fas fa-angle-double-right"> </i></a>
       </section>
 
-      <section>
+      <section class="box-2">
         <h3>A101</h3>
         <h4>Basic Archery</h4>
-        <p>Mon. and Wed., 4–5pm <br> Begins Sept. 30th</p>
-        <p><small>CLASS FULL</small></p>
-        <a href="#">UNAVAILABLE</a>
+        <p class="date-time">Mon. and Wed., 4–5pm <br> Begins Sept. 30th</p>
+        <p class="status">CLASS FULL</p>
+        <a href="#">JOIN WAITLIST <i class="fas fa-angle-double-right"> </i></a>
       </section>
 
-      <section>
+      <section class="box-3">
         <h3>A101</h3>
         <h4>Basic Archery</h4>
-        <p>Tue. and Thur., 4–5pm <br> Begins Oct. 8th</p>
-        <p><small>SPACE AVAILABLE</small></p>
-        <a href="#">SIGN UP</a>
+        <p class="date-time">Tue. and Thur., 4–5pm <br> Begins Oct. 8th</p>
+        <p class="status">SPACE AVAILABLE</p>
+        <a href="#">SIGN UP <i class="fas fa-angle-double-right"> </i></a>
       </section>
+    </div>
+
+    <div class="advice-video">
+      <h2>JUST STARTING OUT?</h2>
+      <p>Take a little advice from a few of the pros on the U.S. Archery team!</p>
+        <video width="450" height="255" controls>
+        <source src="assets/beginner-advice.mp4" type="video/mp4">
+        </video>
+    </div>
     </article>
 
     <footer>
-      Straight to the Point Archery   528 Nock Point Ln   Tacoma, WA 98412   archery-education@example.com   (253)555-1010
+      <ul>
+        <li class="company-footer">Straight to the Point Archery</li>
+        <li>528 Nock Point Ln</li>
+        <li>Tacoma, WA 98412</li>
+        <li><a href="mailto:archery-education@example.com">archery-education@example.com</a></li>
+        <li>(253)555-1010</li>
+      </ul>
     </footer>
 
   </body>
